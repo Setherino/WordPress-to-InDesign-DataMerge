@@ -153,7 +153,7 @@ def display_post_card(post, index, total_posts, is_expanded=False):
 
 def main():
     headcol1, headcol2 = st.columns([1,10], vertical_alignment = "center")
-    headcol1.image(Path(__file__).parent.joinpath("logo.png"))
+    headcol1.image(os.path.join(os.path.dirname(__file__), "logo.png"))
     headcol2.title("The Front Page Stand-Flyer Generator")
     headcol2.text("Created by Seth Ciancio")
     st.divider()
