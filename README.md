@@ -1,4 +1,4 @@
-This progam utilizes InDesign's DataMerge feature to autofill a template with article headlines, article bodies, author names, article images, and auto-generated qr-code article links from any WordPress.com site with an enabled REST API.
+This progam utilizes InDesign's [DataMerge](https://helpx.adobe.com/indesign/using/data-merge.html) feature to autofill a template with article headlines, article bodies, author names, article images, and auto-generated qr-code article links from any WordPress.com site with an enabled REST API.
 This allows for the rapid publication of readily-updated newsletter publications, while eliminating the errors that come from manually moving data from a WordPress site into an InDesign template.
 
 
