@@ -131,6 +131,12 @@ def display_post_card(post, index, total_posts, is_expanded=False):
                     key=f"title_{int(index)}"
                 )
                 
+                body = st.text_area(
+                    "Author:",
+                    value=post.author,
+                    key=f"author_{int(index)}"
+                )
+                
                 # Article body (editable)
                 body = st.text_area(
                     "Body:",
